@@ -1,0 +1,25 @@
+{
+  "name": "Speed Learning",
+  "version": "0.5",
+  
+  "description": "An extremely simple tool to help you master a foreign language while browsing the Web.",
+  "icons": { "16": "icon16.png",
+			 "48": "icon48.png",
+			 "128": "icon128.png" },
+		  
+  "background_page": "background.html",
+  "browser_action": {
+    "default_icon": "icon19.png",
+    "popup": "popup.html"
+  },
+  
+  "permissions": [
+	"tabs",
+	"contextMenus",
+	"https://docs.google.com/feeds/*",
+    "https://spreadsheets.google.com/feeds/*",
+    "https://www.google.com/accounts/OAuthGetRequestToken",
+    "https://www.google.com/accounts/OAuthAuthorizeToken",
+    "https://www.google.com/accounts/OAuthGetAccessToken"
+	]
+}
